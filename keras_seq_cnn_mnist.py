@@ -18,7 +18,7 @@ print('[Start][cnn][mnist] Set hyper parameter -----')
 #  - epochs     : number of learning cycle
 batch_size = 128
 num_classes = 10
-epochs = 20
+epochs = 10
 
 
 print('[Start][cnn][mnist] Data download -----')
