@@ -29,7 +29,7 @@ print('[Start][cnn][mnist] Data download -----')
 # y_test     :  10000 :     -- :     -- : Label data for testing data
 (x_train, y_train), (x_test, y_test) = mnist.load_data()
 
-"""
+
 print('[Start][cnn][mnist] Display first 10 data for learning -----')
 for i in range(10):
     plt.subplot(2, 5, i+1)
@@ -37,7 +37,7 @@ for i in range(10):
     plt.axis("off")
     plt.imshow(x_train[i].reshape(28, 28), cmap=None)
 plt.show()
-"""
+
 
 print('[Start][cnn][mnist] Reshape learning data -----')
 # Change the type of x_train/x_test to 'float32'
