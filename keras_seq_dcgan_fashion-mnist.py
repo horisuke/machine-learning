@@ -1,3 +1,6 @@
+# ref:https://qiita.com/God_KonaBanana/items/293d49e3c34601a1810b
+
+
 from keras.models import Sequential
 from keras.layers import Dense, Activation, Reshape
 from keras.layers.normalization import BatchNormalization
